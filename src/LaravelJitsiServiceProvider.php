@@ -73,7 +73,7 @@ class LaravelJitsiServiceProvider extends ServiceProvider
 
         $router->macro('jitsi', function () use ($router) {
             $router
-                ->get('/jitsi/{room?}', ViewRoomController::class)
+                ->get('/jitsi/{room?}', [ViewRoomController::class, 'index'])
                 ->name('jitsi.view-room');
         });
     }
