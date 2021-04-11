@@ -1,9 +1,9 @@
 <?php
 
-namespace Amyisme13\LaravelJitsi\Tests;
+namespace SmileyThane\LaravelJitsi\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Amyisme13\LaravelJitsi\LaravelJitsiServiceProvider;
+use SmileyThane\LaravelJitsi\LaravelJitsiServiceProvider;
 
 class TestCase extends Orchestra
 {
