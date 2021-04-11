@@ -36,6 +36,10 @@
 
         @if (! is_null($jwt))
         options.jwt = '{{ $jwt }}';
+        options.userInfo = {
+            email: '{{$user['email']}}',
+            displayName: '{{$user['name']}}'
+        }
         @endif
 
         const api = new JitsiMeetExternalAPI(domain, options);
