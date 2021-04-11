@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Amyisme13\\LaravelJitsi\\": "src"
+            "SmileyThane\\LaravelJitsi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Amyisme13\\LaravelJitsi\\Tests\\": "tests"
+            "SmileyThane\\LaravelJitsi\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Amyisme13\\LaravelJitsi\\LaravelJitsiServiceProvider"
+                "SmileyThane\\LaravelJitsi\\LaravelJitsiServiceProvider"
             ],
             "aliases": {
-                "LaravelJitsi": "Amyisme13\\LaravelJitsi\\LaravelJitsiFacade"
+                "LaravelJitsi": "SmileyThane\\LaravelJitsi\\LaravelJitsiFacade"
             }
         }
     }
