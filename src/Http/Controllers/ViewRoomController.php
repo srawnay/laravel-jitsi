@@ -15,7 +15,7 @@ class ViewRoomController extends Controller
      * @param string $room
      * @return \Illuminate\View\View
      */
-    public function __invoke(Request $request, $room = null)
+    public function index(Request $request, $room = null)
     {
         return Jitsi::viewRoom($room, $request->user());
     }
