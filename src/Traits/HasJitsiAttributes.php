@@ -1,6 +1,6 @@
 <?php
 
-namespace Amyisme13\LaravelJitsi\Traits;
+namespace SmileyThane\LaravelJitsi\Traits;
 
 trait HasJitsiAttributes
 {
