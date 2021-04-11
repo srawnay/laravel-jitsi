@@ -1,11 +1,12 @@
 {
-    "name": "amyisme13/laravel-jitsi",
+    "name": "smileythane/laravel-jitsi",
     "description": "A package to generate view of a Jitsi Meet room using Jitsi Meet IFrame API",
     "keywords": [
         "amyisme13",
+        "smileythane",
         "laravel-jitsi"
     ],
-    "homepage": "https://github.com/amyisme13/laravel-jitsi",
+    "homepage": "https://github.com/smileythane/laravel-jitsi",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -13,6 +14,11 @@
             "name": "Azmi Makarima",
             "email": "amy.azmim@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Hleb Prakhnitski",
+            "email": "thane.crios@gmail.com",
+            "role": "Contributor"
         }
     ],
     "require": {
