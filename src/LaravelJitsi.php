@@ -1,6 +1,6 @@
 <?php
 
-namespace Amyisme13\LaravelJitsi;
+namespace SmileyThane\LaravelJitsi;
 
 use Firebase\JWT\JWT;
 use Illuminate\Support\Str;
