@@ -1,8 +1,8 @@
 # Laravel Jitsi
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/amyisme13/laravel-jitsi.svg?style=flat-square)](https://packagist.org/packages/amyisme13/laravel-jitsi)
-[![Build Status](https://img.shields.io/travis/amyisme13/laravel-jitsi/master.svg?style=flat-square)](https://travis-ci.org/amyisme13/laravel-jitsi)
-[![Total Downloads](https://img.shields.io/packagist/dt/amyisme13/laravel-jitsi.svg?style=flat-square)](https://packagist.org/packages/amyisme13/laravel-jitsi)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/smileythane/laravel-jitsi.svg?style=flat-square)](https://packagist.org/packages/smileythane/laravel-jitsi)
+[![Build Status](https://img.shields.io/travis/smileythane/laravel-jitsi/master.svg?style=flat-square)](https://travis-ci.org/smileythane/laravel-jitsi)
+[![Total Downloads](https://img.shields.io/packagist/dt/smileythane/laravel-jitsi.svg?style=flat-square)](https://packagist.org/packages/smileythane/laravel-jitsi)
 
 A package to generate view of a Jitsi Meet room using Jitsi Meet IFrame API.
 
@@ -23,7 +23,7 @@ If you are self-hosting your Jitsi Meet instance, here are some article that mig
 You can install the package via composer:
 
 ```bash
-composer require amyisme13/laravel-jitsi
+composer require smileythane/laravel-jitsi
 ```
 
 Add these variables to your .env file
@@ -37,10 +37,10 @@ JITSI_APP_ID=
 JITSI_APP_SECRET=
 ```
 
-Add the trait `\Amyisme13\LaravelJitsi\Traits\HasJitsiAttributes` to your **User** model.
+Add the trait `\SmileyThane\LaravelJitsi\Traits\HasJitsiAttributes` to your **User** model.
 
 ```php
-use Amyisme13\LaravelJitsi\Traits\HasJitsiAttributes;
+use SmileyThane\LaravelJitsi\Traits\HasJitsiAttributes;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -63,14 +63,6 @@ Route::jitsi();
 
 Then visit `/jitsi/<room name>` to join a conference call. Visiting this url when you are authenticated will set your display name, email, avatar and also grant you the moderator role.
 
-## TODO: More Usage
-
-## Testing
-
-```bash
-composer test
-```
-
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
@@ -79,13 +71,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security
-
-If you discover any security related issues, please email amy.azmim@gmail.com instead of using the issue tracker.
-
 ## Credits
-
--   [Azmi Makarima](https://github.com/amyisme13)
 -   [All Contributors](../../contributors)
 
 ## License
