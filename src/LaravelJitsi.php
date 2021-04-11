@@ -54,6 +54,6 @@ class LaravelJitsi
             $jwt = $this->generateJwt($user, $room);
         }
 
-        return view('laravel-jitsi::room', compact('room', 'jwt'));
+        return view('laravel-jitsi::room', compact('room', 'jwt', 'user'));
     }
 }
