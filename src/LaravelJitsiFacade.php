@@ -1,11 +1,11 @@
 <?php
 
-namespace SmileyThane\LaravelJitsi;
+namespace Srawnay\LaravelJitsi;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \SmileyThane\LaravelJitsi\Skeleton\SkeletonClass
+ * @see \Srawnay\LaravelJitsi\Skeleton\SkeletonClass
  */
 class LaravelJitsiFacade extends Facade
 {

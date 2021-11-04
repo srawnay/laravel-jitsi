@@ -1,6 +1,6 @@
 preset: package
 
-namespace: SmileyThane\LaravelJitsi
+namespace: Srawnay\LaravelJitsi
 user-auth-provider: App\User
 
 paths:
@@ -15,13 +15,13 @@ migration:
   prefix: ''
 
 console:
-  namespace: SmileyThane\LaravelJitsi\Console
+  namespace: Srawnay\LaravelJitsi\Console
 
 model:
-  namespace: SmileyThane\LaravelJitsi
+  namespace: Srawnay\LaravelJitsi
 
 provider:
-  namespace: SmileyThane\LaravelJitsi\Providers
+  namespace: Srawnay\LaravelJitsi\Providers
 
 testing:
-  namespace: SmileyThane\LaravelJitsi\Tests
+  namespace: Srawnay\LaravelJitsi\Tests

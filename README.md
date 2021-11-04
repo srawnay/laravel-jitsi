@@ -1,8 +1,8 @@
 # Laravel Jitsi
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/smileythane/laravel-jitsi.svg?style=flat-square)](https://packagist.org/packages/smileythane/laravel-jitsi)
-[![Build Status](https://img.shields.io/travis/smileythane/laravel-jitsi/master.svg?style=flat-square)](https://travis-ci.org/smileythane/laravel-jitsi)
-[![Total Downloads](https://img.shields.io/packagist/dt/smileythane/laravel-jitsi.svg?style=flat-square)](https://packagist.org/packages/smileythane/laravel-jitsi)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/srawnay/laravel-jitsi.svg?style=flat-square)](https://packagist.org/packages/srawnay/laravel-jitsi)
+[![Build Status](https://img.shields.io/travis/srawnay/laravel-jitsi/master.svg?style=flat-square)](https://travis-ci.org/srawnay/laravel-jitsi)
+[![Total Downloads](https://img.shields.io/packagist/dt/srawnay/laravel-jitsi.svg?style=flat-square)](https://packagist.org/packages/srawnay/laravel-jitsi)
 
 A package to generate view of a Jitsi Meet room using Jitsi Meet IFrame API.
 
@@ -23,7 +23,7 @@ If you are self-hosting your Jitsi Meet instance, here are some article that mig
 You can install the package via composer:
 
 ```bash
-composer require smileythane/laravel-jitsi
+composer require srawnay/laravel-jitsi
 ```
 
 Add these variables to your .env file
@@ -37,10 +37,10 @@ JITSI_APP_ID=
 JITSI_APP_SECRET=
 ```
 
-Add the trait `\SmileyThane\LaravelJitsi\Traits\HasJitsiAttributes` to your **User** model.
+Add the trait `\Srawnay\LaravelJitsi\Traits\HasJitsiAttributes` to your **User** model.
 
 ```php
-use SmileyThane\LaravelJitsi\Traits\HasJitsiAttributes;
+use Srawnay\LaravelJitsi\Traits\HasJitsiAttributes;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;

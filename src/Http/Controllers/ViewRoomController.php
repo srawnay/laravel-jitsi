@@ -1,8 +1,8 @@
 <?php
 
-namespace SmileyThane\LaravelJitsi\Http\Controllers;
+namespace Srawnay\LaravelJitsi\Http\Controllers;
 
-use SmileyThane\LaravelJitsi\LaravelJitsiFacade as Jitsi;
+use Srawnay\LaravelJitsi\LaravelJitsiFacade as Jitsi;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 

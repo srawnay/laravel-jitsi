@@ -1,8 +1,8 @@
 <?php
 
-namespace SmileyThane\LaravelJitsi\Tests;
+namespace Srawnay\LaravelJitsi\Tests;
 
-use SmileyThane\LaravelJitsi\Traits\HasJitsiAttributes;
+use Srawnay\LaravelJitsi\Traits\HasJitsiAttributes;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\Access\Authorizable;

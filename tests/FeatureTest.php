@@ -1,6 +1,6 @@
 <?php
 
-namespace SmileyThane\LaravelJitsi\Tests;
+namespace Srawnay\LaravelJitsi\Tests;
 
 class FeatureTest extends TestCase
 {
